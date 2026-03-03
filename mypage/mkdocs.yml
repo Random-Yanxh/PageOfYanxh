@@ -4,6 +4,30 @@ nav:
   - About: about.md
 docs_dir: notes
 theme:
-  name: mkdocs
-plugins:
-  - search
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  font:
+    text: LXGW WenKai
+    code: JetBrains Mono
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - codehilite
+  - pymdownx.superfences
+  - admonition
