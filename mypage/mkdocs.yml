@@ -1,0 +1,9 @@
+site_name: Notes of Random_Yanxh
+nav: 
+  - Home: index.md
+  - About: about.md
+docs_dir: notes
+theme:
+  name: mkdocs
+plugins:
+  - search
