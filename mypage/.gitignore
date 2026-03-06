@@ -1,2 +1,8 @@
-*site/
+site/
 Lib/
+Scripts/
+pyvenv.cfg
+.lock
+CACHEDIRDIR.TAG
+.venv/
+__pycache__/
