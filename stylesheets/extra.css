@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai&display=swap');
+
+:root {
+  /* Enforce LXGW WenKai across the site */
+  --md-text-font-family: "LXGW WenKai", "Roboto", sans-serif;
+}
+
+/* -----------------------------------
+   Global Layout & Links 
+----------------------------------- */
+body {
+  font-family: var(--md-text-font-family);
+}
+
+.md-typeset a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.md-typeset a:hover {
+  border-bottom: 2px solid var(--md-accent-fg-color);
+}
+
+.md-nav__link--active {
+  color: var(--md-accent-fg-color) !important;
+  font-weight: bold;
+}
+
+/* -----------------------------------
+   Light Mode (default) 
+----------------------------------- */
+[data-md-color-scheme="default"] {
+  --md-accent-fg-color: #005A9C;
+  /* Deeper tech blue for light mode */
+}
+
+/* -----------------------------------
+   Dark Mode (slate) Tweaks
+----------------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0b0f19;
+  --md-primary-fg-color--light: #1c2331;
+  --md-primary-fg-color--dark: #06090f;
+
+  --md-accent-fg-color: #00e5ff;
+  /* Cyan accent for dark mode */
+  --md-typeset-a-color: #00e5ff;
+}
+
+[data-md-color-scheme="slate"] body {
+  background-color: var(--md-default-bg-color);
+  background-image: radial-gradient(circle at 50% 10%, rgba(0, 255, 255, 0.03) 0%, transparent 60%);
+}
+
+/* Dark Mode: Code Blocks & Inline Code */
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: rgba(0, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  border-radius: 4px;
+  color: #00e5ff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset pre>code {
+  background-color: #0b0f19 !important;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 6px;
+  color: #c9d1d9;
+}
+
+/* Dark Mode: Admonitions styling */
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+  border-left-color: var(--md-accent-fg-color);
+  background: rgba(0, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition-title {
+  background: rgba(0, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+/* Dark Mode: Scrollbar customization (Webkit) */
+[data-md-color-scheme="slate"] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 255, 0.6);
+}
