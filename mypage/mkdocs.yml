@@ -1,7 +1,11 @@
-site_name: Notes of Random_Yanxh
+site_name: 严旭铧的简历
 nav: 
-  - Home: index.md
-  - About: about.md
+  - 主页: index.md
+  - 核心项目:
+      - 心电监测设备: project1_ecg.md
+      - 风电功率超短期多步时序预测: project2_wind.md
+      - 仿真实验平台: project3_simulation.md
+  - 学生工作: student_work.md
 docs_dir: notes
 theme:
   name: material
@@ -31,3 +35,9 @@ markdown_extensions:
   - codehilite
   - pymdownx.superfences
   - admonition
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

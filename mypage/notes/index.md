@@ -1,17 +1,65 @@
-# Welcome to Notes of Random_Yanxh
+# **严旭铧**
+##📖 **基本情况**
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
+  <div style="flex: 1 1 300px;">
+    <p>
+      🏫 <b>浙江大学</b> | 电气工程学院 | 电气工程及其自动化专业<br>
+      🎓 <b>2022级“爱迪生实验班”</b> | 本科：2022年9月 — 2026年6月<br>
+      📊 <b>GPA:</b> 3.87/5.00 (55%) &nbsp;|&nbsp; <b>CET-6:</b> 637分 &nbsp;|&nbsp; <b>政治面貌:</b> 共青团员<br>
+      📞 18257160500 &nbsp;|&nbsp; ✉️ <a href="mailto:1793255050@qq.com">1793255050@qq.com</a> &nbsp;|&nbsp; 🌐 <a href="https://github.com/Random-Yanxh" target="_blank">GitHub 主页</a>
 
-## Commands
+    </p>
+    <p>
+      <b>主修课程：</b>电力系统分析、电力电子技术、模拟/数字电子电路、继电保护、高电压技术、微机原理与应用。<br>
+      <b>荣誉奖项：</b>浙江大学三等奖学金，多次获<b>校级优秀团干部</b>、优秀团员、社会工作标兵等荣誉。<br>
+      <b>核心特质：</b>快速自学能力、跨界融合思维(电气+AI/软件)、团队领导与统筹、强执行力与抗压能力
+    </p>
+  </div>
+  <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center;">
+    <img src="assets/证件照.png" alt="个人照片" style="width: 120px; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  </div>
+</div>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## 🛠️ <b>项目经历</b>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### <b>可充电便携式心电监测设备</b> &nbsp;<small>[📝查看详情](project1_ecg.md)</small>
+*信号分析与处理课程大作业* <span style="float: right;">**2024.05**</span>
+
+- **团队管理与统筹**：担任项目组长，合理规划分配任务，统筹整个项目进度，带领 4 人团队提前一周顺利交付成品，全组成员均取得满绩。
+- **硬件设计与实现**：负责核心硬件部分，使用嘉立创 EDA 设计双层 PCB（10cm×10cm），手工完成监测功能板的焊接与调试，成功实现 **QRS 波形检测** 和便携充电功能。
+
+### <b>风电功率超短期多步时序预测</b> &nbsp;<small>[📝查看详情](project2_wind.md)</small>
+*人工智能与电力大数据课程大作业* <span style="float: right;">**2025.05**</span>
+
+- **预测模型构建**：负责核心算法模型的设计与搭建，利用 Python 实现了 **BP、LSTM、GRU、TCN** 等多种主流神经网络模型。
+- **模型验证与评估**：实现了对未来 4 小时风电功率的超短期多步时序预测。模型预测效果达到预期指标：15 分钟均方误差（MSE）< 0.01，4 小时 MSE < 0.03。
+
+
+### <b>基于源网荷储一体化新型电力系统的硬件在环仿真实验平台</b> &nbsp;<small>[📝查看详情](project3_simulation.md)</small>
+*高校电气电子工程创新大赛复赛项目* <span style="float: right;">**2025.01 - 2025.07**</span>
+
+- **前端展示网页开发**：利用 Cursor 和 RooCode 工具，基于 **Vue3** 框架独立构建了完整的仿真数据展示平台前端。
+- **智能化交互设计**：构建了一个包含自建 **RAG（检索增强生成）** 知识库的 Dify 工作流，并将其作为 AI 助手成功嵌入到网页中，显著提升了平台的交互体验与可用性。
+
+---
+
+## 👥 <b>学生工作</b> &nbsp;<small>[📝查看详情](student_work.md)</small>
+
+### <b>班级管理与组织</b>
+- **班长职务**：在校期间担任班长，每学年考评结果均为“优秀”。
+- **大型活动统筹**：作为总负责人，成功组织了两个班级（40 人规模）前往临安区高新技术企业及党群服务中心的参观实践活动。在受外部环境影响的情况下，妥善处理了各项复杂的协调沟通工作，保障活动圆满举办。
+
+### <b>学生会职务与志愿服务</b>
+- **办公室干事**：在校学生会办公室部门任职一年。
+- **后勤物质保障**：深度参与多项大型活动（如集体祭扫、校学生节等）的物资筹办与后勤保障工作，积累了丰富的活动从筹备到落地的组织经验。
+
+---
+
+## 💡 <b>自我评价</b>
+
+- **综合素质**：具备扎实的工科逻辑思维与动手实践能力；性格严谨认真，善于团队沟通，展现出优秀的领导与应变能力；热爱体育运动，身体素质好，能适应艰苦工作环境及适当强度的出差；做事踏实，具有强烈的责任感与执行力。
+- **技能特长**：具备较强自学能力，保持对新事物的学习热情；精通 Office 办公软件、Origin 数据分析及 **Git** 版本控制工具；熟练使用剪映、秀米等媒体处理软件，能够独立完成视频剪辑和微信公众号推文排版。
+- **前沿探索**：持续关注人工智能领域前沿发展，熟悉各类主流大模型特性与应用场景；能够熟练调用各类 AI API 接口和 **MCP (Model Context Protocol)** 工具提高生产力，曾自主编写进校预约数据登记等自动化脚本，显著提升日常工作效率。
