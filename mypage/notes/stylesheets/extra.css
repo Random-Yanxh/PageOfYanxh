@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
-:root {
-  /* Enforce LXGW WenKai across the site */
-  --md-text-font-family: "LXGW WenKai", "Roboto", sans-serif;
+/* -----------------------------------
+   Font overrides: bypass MkDocs Material variable system
+----------------------------------- */
+body,
+.md-typeset,
+.md-nav,
+.md-header,
+.md-footer,
+.md-sidebar {
+  font-family: "LXGW WenKai", "Noto Sans SC", sans-serif !important;
+}
+
+.md-typeset code,
+.md-typeset pre {
+  font-family: "JetBrains Mono", monospace !important;
 }
 
 /* -----------------------------------
    Global Layout & Links 
 ----------------------------------- */
 body {
-  font-family: var(--md-text-font-family);
+  font-family: "LXGW WenKai", "Noto Sans SC", sans-serif !important;
 }
 
 .md-typeset a {

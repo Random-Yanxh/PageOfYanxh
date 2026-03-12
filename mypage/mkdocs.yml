@@ -26,9 +26,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-  font:
-    text: LXGW WenKai
-    code: JetBrains Mono
+  font: false
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
